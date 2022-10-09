@@ -7,7 +7,7 @@ const Home = () => {
     navigate("/courses");
   };
     return (
-        <div className="text-center">
+        <div className="text-center p-8 bg-slate-300">
         <h1 className="text-3xl m-8 ">
           Welcome to <span className="text-4xl font-bold">Bro Tech</span>
         </h1>

@@ -6,6 +6,7 @@ import About from './component/Header/About/About';
 import Cart from './component/Header/Cart/Cart';
 import Courses from './component/Header/Courses/Courses';
 import Home from './component/Home/Home';
+import Errorpage from './component/Errorpage/Errorpage';
 
 function App() {
   const router = createBrowserRouter([
@@ -35,6 +36,10 @@ function App() {
     element : <About></About>
   }
   ] 
+},
+{
+  path: '*',
+  element: <Errorpage></Errorpage>
 }
   ])
   return (

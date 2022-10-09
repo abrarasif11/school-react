@@ -10,7 +10,7 @@ const Header = () => {
 		</a>
 		<ul className="items-stretch hidden space-x-3 md:flex">
 			<li className="flex">
-				<a rel="noopener noreferrer" href="/" className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent">Home</a>
+				<a rel="noopener noreferrer" href="/" className="flex items-center px-4 -mb-1 border-b-2 ">Home</a>
 			</li>
 			<li className="flex">
 				<a rel="noopener noreferrer" href="/courses" className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent">Courses</a>
