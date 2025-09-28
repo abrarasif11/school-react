@@ -8,7 +8,7 @@ const Home = () => {
   };
     return (
         <div className="text-center p-8 bg-slate-300">
-        <h1 className="text-3xl m-8 ">
+        <h1 className="text-4xl m-8 ">
           Welcome to <span className="text-4xl font-bold">Bro Tech</span>
         </h1>
         <p className="mb-8">
